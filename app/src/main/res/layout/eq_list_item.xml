@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/eq_magnitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:textSize="20sp"
+            tools:text="5.6"
+
+            android:textColor="@color/design_default_color_on_secondary"
+
+
+            />
+
+        <ImageView
+            android:id="@+id/eq_arrow"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+
+            android:contentDescription="@string/open"
+            android:src="@drawable/ic_chevron_right_fill0_wght400_grad0_opsz48" />
+
+        <TextView
+            android:id="@+id/eq_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/eq_arrow"
+
+            android:layout_toEndOf="@+id/eq_magnitude"
+            android:textSize="20sp"
+            tools:text="80 Km E México city"
+
+            />
+    </RelativeLayout>
+</layout>

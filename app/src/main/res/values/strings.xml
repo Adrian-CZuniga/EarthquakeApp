@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Earthquake-2</string>
+    <string name="EmptyEQ">Nothing to show for now!</string>
+
+    <string name="magnitude_format">%.2f</string>
+    <string name="open">Open</string>
+</resources>
